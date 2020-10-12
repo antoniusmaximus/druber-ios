@@ -1,0 +1,644 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 48;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		BF21FB9F1FA7F49100031A96 /* AnfordernMVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = BF21FB9E1FA7F49100031A96 /* AnfordernMVC.swift */; };
+		BF6D1F061FCDEEE20016503F /* 3.png in Resources */ = {isa = PBXBuildFile; fileRef = BF6D1F021FCDEEE20016503F /* 3.png */; };
+		BF6D1F071FCDEEE30016503F /* 2.png in Resources */ = {isa = PBXBuildFile; fileRef = BF6D1F031FCDEEE20016503F /* 2.png */; };
+		BF6D1F081FCDEEE30016503F /* 1.png in Resources */ = {isa = PBXBuildFile; fileRef = BF6D1F041FCDEEE20016503F /* 1.png */; };
+		BF6D1F091FCDEEE30016503F /* route.png in Resources */ = {isa = PBXBuildFile; fileRef = BF6D1F051FCDEEE20016503F /* route.png */; };
+		BF6D1F0B1FCE04450016503F /* WartenTVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = BF6D1F0A1FCE04450016503F /* WartenTVC.swift */; };
+		BF8120841FA8D7880029B4AB /* TicketsTVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = BF8120831FA8D7880029B4AB /* TicketsTVC.swift */; };
+		BF92A1361FA64EFE00B78773 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = BF92A1351FA64EFE00B78773 /* AppDelegate.swift */; };
+		BF92A13B1FA64EFE00B78773 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = BF92A1391FA64EFE00B78773 /* Main.storyboard */; };
+		BF92A13E1FA64EFE00B78773 /* Druber.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = BF92A13C1FA64EFE00B78773 /* Druber.xcdatamodeld */; };
+		BF92A1401FA64EFE00B78773 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = BF92A13F1FA64EFE00B78773 /* Assets.xcassets */; };
+		BF92A1431FA64EFE00B78773 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = BF92A1411FA64EFE00B78773 /* LaunchScreen.storyboard */; };
+		BF92A14E1FA64EFE00B78773 /* DruberTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = BF92A14D1FA64EFE00B78773 /* DruberTests.swift */; };
+		BF92A1591FA64EFF00B78773 /* DruberUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = BF92A1581FA64EFF00B78773 /* DruberUITests.swift */; };
+		BFDC699B1FCC85210085A84B /* PaketVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = BFDC699A1FCC85210085A84B /* PaketVC.swift */; };
+		BFDC69A01FCC87B70085A84B /* 3.jpg in Resources */ = {isa = PBXBuildFile; fileRef = BFDC699D1FCC87B60085A84B /* 3.jpg */; };
+		BFDC69A11FCC87B70085A84B /* 1.jpg in Resources */ = {isa = PBXBuildFile; fileRef = BFDC699E1FCC87B60085A84B /* 1.jpg */; };
+		BFDC69A21FCC87B70085A84B /* 2.jpg in Resources */ = {isa = PBXBuildFile; fileRef = BFDC699F1FCC87B60085A84B /* 2.jpg */; };
+		BFDC69A41FCC895F0085A84B /* PaketCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = BFDC69A31FCC895F0085A84B /* PaketCell.swift */; };
+		BFFA742A1FCCDC2C005109B9 /* BezahlenVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = BFFA74291FCCDC2B005109B9 /* BezahlenVC.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		BF92A14A1FA64EFE00B78773 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = BF92A12A1FA64EFE00B78773 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = BF92A1311FA64EFE00B78773;
+			remoteInfo = Druber;
+		};
+		BF92A1551FA64EFF00B78773 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = BF92A12A1FA64EFE00B78773 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = BF92A1311FA64EFE00B78773;
+			remoteInfo = Druber;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		BF21FB9E1FA7F49100031A96 /* AnfordernMVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AnfordernMVC.swift; sourceTree = "<group>"; };
+		BF6D1F021FCDEEE20016503F /* 3.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = 3.png; sourceTree = "<group>"; };
+		BF6D1F031FCDEEE20016503F /* 2.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = 2.png; sourceTree = "<group>"; };
+		BF6D1F041FCDEEE20016503F /* 1.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = 1.png; sourceTree = "<group>"; };
+		BF6D1F051FCDEEE20016503F /* route.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = route.png; sourceTree = "<group>"; };
+		BF6D1F0A1FCE04450016503F /* WartenTVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WartenTVC.swift; sourceTree = "<group>"; };
+		BF8120831FA8D7880029B4AB /* TicketsTVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TicketsTVC.swift; sourceTree = "<group>"; };
+		BF92A1321FA64EFE00B78773 /* Druber.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Druber.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		BF92A1351FA64EFE00B78773 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		BF92A13A1FA64EFE00B78773 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		BF92A13D1FA64EFE00B78773 /* Druber.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = Druber.xcdatamodel; sourceTree = "<group>"; };
+		BF92A13F1FA64EFE00B78773 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		BF92A1421FA64EFE00B78773 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		BF92A1441FA64EFE00B78773 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		BF92A1491FA64EFE00B78773 /* DruberTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = DruberTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		BF92A14D1FA64EFE00B78773 /* DruberTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DruberTests.swift; sourceTree = "<group>"; };
+		BF92A14F1FA64EFE00B78773 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		BF92A1541FA64EFF00B78773 /* DruberUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = DruberUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		BF92A1581FA64EFF00B78773 /* DruberUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DruberUITests.swift; sourceTree = "<group>"; };
+		BF92A15A1FA64EFF00B78773 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		BFDC699A1FCC85210085A84B /* PaketVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PaketVC.swift; sourceTree = "<group>"; };
+		BFDC699D1FCC87B60085A84B /* 3.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = 3.jpg; sourceTree = "<group>"; };
+		BFDC699E1FCC87B60085A84B /* 1.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = 1.jpg; sourceTree = "<group>"; };
+		BFDC699F1FCC87B60085A84B /* 2.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = 2.jpg; sourceTree = "<group>"; };
+		BFDC69A31FCC895F0085A84B /* PaketCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PaketCell.swift; sourceTree = "<group>"; };
+		BFFA74291FCCDC2B005109B9 /* BezahlenVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BezahlenVC.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		BF92A12F1FA64EFE00B78773 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		BF92A1461FA64EFE00B78773 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		BF92A1511FA64EFF00B78773 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		BF6D1F011FCDEEE20016503F /* Icons */ = {
+			isa = PBXGroup;
+			children = (
+				BF6D1F041FCDEEE20016503F /* 1.png */,
+				BF6D1F031FCDEEE20016503F /* 2.png */,
+				BF6D1F021FCDEEE20016503F /* 3.png */,
+				BF6D1F051FCDEEE20016503F /* route.png */,
+			);
+			path = Icons;
+			sourceTree = "<group>";
+		};
+		BF92A1291FA64EFE00B78773 = {
+			isa = PBXGroup;
+			children = (
+				BF92A1341FA64EFE00B78773 /* Druber */,
+				BFDC699C1FCC87B60085A84B /* Bilder */,
+				BF6D1F011FCDEEE20016503F /* Icons */,
+				BF92A14C1FA64EFE00B78773 /* DruberTests */,
+				BF92A1571FA64EFF00B78773 /* DruberUITests */,
+				BF92A1331FA64EFE00B78773 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		BF92A1331FA64EFE00B78773 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				BF92A1321FA64EFE00B78773 /* Druber.app */,
+				BF92A1491FA64EFE00B78773 /* DruberTests.xctest */,
+				BF92A1541FA64EFF00B78773 /* DruberUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		BF92A1341FA64EFE00B78773 /* Druber */ = {
+			isa = PBXGroup;
+			children = (
+				BF92A1351FA64EFE00B78773 /* AppDelegate.swift */,
+				BF92A1391FA64EFE00B78773 /* Main.storyboard */,
+				BF92A13F1FA64EFE00B78773 /* Assets.xcassets */,
+				BF92A1411FA64EFE00B78773 /* LaunchScreen.storyboard */,
+				BF92A1441FA64EFE00B78773 /* Info.plist */,
+				BF92A13C1FA64EFE00B78773 /* Druber.xcdatamodeld */,
+				BF8120831FA8D7880029B4AB /* TicketsTVC.swift */,
+				BF21FB9E1FA7F49100031A96 /* AnfordernMVC.swift */,
+				BFDC699A1FCC85210085A84B /* PaketVC.swift */,
+				BFDC69A31FCC895F0085A84B /* PaketCell.swift */,
+				BFFA74291FCCDC2B005109B9 /* BezahlenVC.swift */,
+				BF6D1F0A1FCE04450016503F /* WartenTVC.swift */,
+			);
+			path = Druber;
+			sourceTree = "<group>";
+		};
+		BF92A14C1FA64EFE00B78773 /* DruberTests */ = {
+			isa = PBXGroup;
+			children = (
+				BF92A14D1FA64EFE00B78773 /* DruberTests.swift */,
+				BF92A14F1FA64EFE00B78773 /* Info.plist */,
+			);
+			path = DruberTests;
+			sourceTree = "<group>";
+		};
+		BF92A1571FA64EFF00B78773 /* DruberUITests */ = {
+			isa = PBXGroup;
+			children = (
+				BF92A1581FA64EFF00B78773 /* DruberUITests.swift */,
+				BF92A15A1FA64EFF00B78773 /* Info.plist */,
+			);
+			path = DruberUITests;
+			sourceTree = "<group>";
+		};
+		BFDC699C1FCC87B60085A84B /* Bilder */ = {
+			isa = PBXGroup;
+			children = (
+				BFDC699E1FCC87B60085A84B /* 1.jpg */,
+				BFDC699F1FCC87B60085A84B /* 2.jpg */,
+				BFDC699D1FCC87B60085A84B /* 3.jpg */,
+			);
+			path = Bilder;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		BF92A1311FA64EFE00B78773 /* Druber */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = BF92A15D1FA64EFF00B78773 /* Build configuration list for PBXNativeTarget "Druber" */;
+			buildPhases = (
+				BF92A12E1FA64EFE00B78773 /* Sources */,
+				BF92A12F1FA64EFE00B78773 /* Frameworks */,
+				BF92A1301FA64EFE00B78773 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = Druber;
+			productName = Druber;
+			productReference = BF92A1321FA64EFE00B78773 /* Druber.app */;
+			productType = "com.apple.product-type.application";
+		};
+		BF92A1481FA64EFE00B78773 /* DruberTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = BF92A1601FA64EFF00B78773 /* Build configuration list for PBXNativeTarget "DruberTests" */;
+			buildPhases = (
+				BF92A1451FA64EFE00B78773 /* Sources */,
+				BF92A1461FA64EFE00B78773 /* Frameworks */,
+				BF92A1471FA64EFE00B78773 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				BF92A14B1FA64EFE00B78773 /* PBXTargetDependency */,
+			);
+			name = DruberTests;
+			productName = DruberTests;
+			productReference = BF92A1491FA64EFE00B78773 /* DruberTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		BF92A1531FA64EFF00B78773 /* DruberUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = BF92A1631FA64EFF00B78773 /* Build configuration list for PBXNativeTarget "DruberUITests" */;
+			buildPhases = (
+				BF92A1501FA64EFF00B78773 /* Sources */,
+				BF92A1511FA64EFF00B78773 /* Frameworks */,
+				BF92A1521FA64EFF00B78773 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				BF92A1561FA64EFF00B78773 /* PBXTargetDependency */,
+			);
+			name = DruberUITests;
+			productName = DruberUITests;
+			productReference = BF92A1541FA64EFF00B78773 /* DruberUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		BF92A12A1FA64EFE00B78773 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0900;
+				LastUpgradeCheck = 0900;
+				ORGANIZATIONNAME = "Anton Quietzsch";
+				TargetAttributes = {
+					BF92A1311FA64EFE00B78773 = {
+						CreatedOnToolsVersion = 9.0.1;
+						ProvisioningStyle = Automatic;
+					};
+					BF92A1481FA64EFE00B78773 = {
+						CreatedOnToolsVersion = 9.0.1;
+						ProvisioningStyle = Automatic;
+						TestTargetID = BF92A1311FA64EFE00B78773;
+					};
+					BF92A1531FA64EFF00B78773 = {
+						CreatedOnToolsVersion = 9.0.1;
+						ProvisioningStyle = Automatic;
+						TestTargetID = BF92A1311FA64EFE00B78773;
+					};
+				};
+			};
+			buildConfigurationList = BF92A12D1FA64EFE00B78773 /* Build configuration list for PBXProject "Druber" */;
+			compatibilityVersion = "Xcode 8.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = BF92A1291FA64EFE00B78773;
+			productRefGroup = BF92A1331FA64EFE00B78773 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				BF92A1311FA64EFE00B78773 /* Druber */,
+				BF92A1481FA64EFE00B78773 /* DruberTests */,
+				BF92A1531FA64EFF00B78773 /* DruberUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		BF92A1301FA64EFE00B78773 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				BF6D1F061FCDEEE20016503F /* 3.png in Resources */,
+				BF6D1F071FCDEEE30016503F /* 2.png in Resources */,
+				BFDC69A11FCC87B70085A84B /* 1.jpg in Resources */,
+				BF6D1F081FCDEEE30016503F /* 1.png in Resources */,
+				BF92A1431FA64EFE00B78773 /* LaunchScreen.storyboard in Resources */,
+				BF6D1F091FCDEEE30016503F /* route.png in Resources */,
+				BFDC69A01FCC87B70085A84B /* 3.jpg in Resources */,
+				BFDC69A21FCC87B70085A84B /* 2.jpg in Resources */,
+				BF92A1401FA64EFE00B78773 /* Assets.xcassets in Resources */,
+				BF92A13B1FA64EFE00B78773 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		BF92A1471FA64EFE00B78773 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		BF92A1521FA64EFF00B78773 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		BF92A12E1FA64EFE00B78773 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				BF92A13E1FA64EFE00B78773 /* Druber.xcdatamodeld in Sources */,
+				BF21FB9F1FA7F49100031A96 /* AnfordernMVC.swift in Sources */,
+				BF92A1361FA64EFE00B78773 /* AppDelegate.swift in Sources */,
+				BF6D1F0B1FCE04450016503F /* WartenTVC.swift in Sources */,
+				BFFA742A1FCCDC2C005109B9 /* BezahlenVC.swift in Sources */,
+				BFDC69A41FCC895F0085A84B /* PaketCell.swift in Sources */,
+				BFDC699B1FCC85210085A84B /* PaketVC.swift in Sources */,
+				BF8120841FA8D7880029B4AB /* TicketsTVC.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		BF92A1451FA64EFE00B78773 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				BF92A14E1FA64EFE00B78773 /* DruberTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		BF92A1501FA64EFF00B78773 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				BF92A1591FA64EFF00B78773 /* DruberUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		BF92A14B1FA64EFE00B78773 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = BF92A1311FA64EFE00B78773 /* Druber */;
+			targetProxy = BF92A14A1FA64EFE00B78773 /* PBXContainerItemProxy */;
+		};
+		BF92A1561FA64EFF00B78773 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = BF92A1311FA64EFE00B78773 /* Druber */;
+			targetProxy = BF92A1551FA64EFF00B78773 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		BF92A1391FA64EFE00B78773 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				BF92A13A1FA64EFE00B78773 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		BF92A1411FA64EFE00B78773 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				BF92A1421FA64EFE00B78773 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		BF92A15B1FA64EFF00B78773 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.0;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		BF92A15C1FA64EFF00B78773 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.0;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		BF92A15E1FA64EFF00B78773 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = ZGXK69528C;
+				INFOPLIST_FILE = Druber/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.antoniusapps.Druber;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		BF92A15F1FA64EFF00B78773 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = ZGXK69528C;
+				INFOPLIST_FILE = Druber/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.antoniusapps.Druber;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		BF92A1611FA64EFF00B78773 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = ZGXK69528C;
+				INFOPLIST_FILE = DruberTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.antoniusapps.DruberTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Druber.app/Druber";
+			};
+			name = Debug;
+		};
+		BF92A1621FA64EFF00B78773 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = ZGXK69528C;
+				INFOPLIST_FILE = DruberTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.antoniusapps.DruberTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Druber.app/Druber";
+			};
+			name = Release;
+		};
+		BF92A1641FA64EFF00B78773 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = ZGXK69528C;
+				INFOPLIST_FILE = DruberUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.antoniusapps.DruberUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = Druber;
+			};
+			name = Debug;
+		};
+		BF92A1651FA64EFF00B78773 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = ZGXK69528C;
+				INFOPLIST_FILE = DruberUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.antoniusapps.DruberUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = Druber;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		BF92A12D1FA64EFE00B78773 /* Build configuration list for PBXProject "Druber" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				BF92A15B1FA64EFF00B78773 /* Debug */,
+				BF92A15C1FA64EFF00B78773 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		BF92A15D1FA64EFF00B78773 /* Build configuration list for PBXNativeTarget "Druber" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				BF92A15E1FA64EFF00B78773 /* Debug */,
+				BF92A15F1FA64EFF00B78773 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		BF92A1601FA64EFF00B78773 /* Build configuration list for PBXNativeTarget "DruberTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				BF92A1611FA64EFF00B78773 /* Debug */,
+				BF92A1621FA64EFF00B78773 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		BF92A1631FA64EFF00B78773 /* Build configuration list for PBXNativeTarget "DruberUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				BF92A1641FA64EFF00B78773 /* Debug */,
+				BF92A1651FA64EFF00B78773 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+
+/* Begin XCVersionGroup section */
+		BF92A13C1FA64EFE00B78773 /* Druber.xcdatamodeld */ = {
+			isa = XCVersionGroup;
+			children = (
+				BF92A13D1FA64EFE00B78773 /* Druber.xcdatamodel */,
+			);
+			currentVersion = BF92A13D1FA64EFE00B78773 /* Druber.xcdatamodel */;
+			path = Druber.xcdatamodeld;
+			sourceTree = "<group>";
+			versionGroupType = wrapper.xcdatamodel;
+		};
+/* End XCVersionGroup section */
+	};
+	rootObject = BF92A12A1FA64EFE00B78773 /* Project object */;
+}
